@@ -1,0 +1,18 @@
+{
+  "developerAbbreviation": "BSC_Detector",
+  "protocolName": "",
+  "protocolAbbreviation": "",
+  "accountBalance": {
+    "BINANCE_CODE_WALLET_1": {
+      "address": "0xF977814e90dA44bFA03b6295A0616a897441aceC",
+      "thresholdEth": 4000000,
+      "alert": { "type": "Cold Wallet", "severity": "Low" }
+    },
+    "BINANCE_CODE_WALLET_2": {
+      "address": "0x8894E0a0c962CB723c1976a4421c95949bE2D4E3",
+      "thresholdEth": 2000000, 
+      "alert": { "type": "Suspicious", "severity": "Medium" }
+    }
+  },
+  "alertMinimumIntervalSeconds": 86400
+}
